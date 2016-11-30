@@ -1,7 +1,4 @@
 <?php
-echo "I am a bot";
-
-<?php
 $access_token = '1490382092';
 
 // Get POST body content
