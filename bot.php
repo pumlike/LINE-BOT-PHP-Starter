@@ -21,7 +21,22 @@ if (!is_null($events['events'])) {
 				'type' => 'text',
 				'text' => $text
 			];
-
+curl -X POST \
+-H 'Content-Type:application/json' \
+-H 'Authorization: Bearer {ENTER_ACCESS_TOKEN}' \
+-d '{
+    "replyToken":"nHuyWiB7yP5Zw52FIkcQobQuGDXCTA",
+    "messages":[
+        {
+            "type":"หมวย",
+            "text":"น่ารักป่ะล่ะ"
+        },
+        {
+            "type":"text",
+            "text":"May I help you?"
+        }
+    ]
+}' https://api.line.me/v2/bot/message/reply
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
