@@ -21,6 +21,10 @@ if (!is_null($events['events']))
 			{
 				$replytext="สวัสดี";
 			}
+			if($text=="ดีจร๊")
+			{
+				$replytext="สวัสดี";
+			}
 			
 			// Build message to reply back
 			$messages = [
