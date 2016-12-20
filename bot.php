@@ -165,7 +165,12 @@ if (!is_null($events['events']))
 			{
 				$replytext="มึงเหี้ยกว่า";
 			}
-			
+			if($text=="บชกสิกร")
+			{
+				$replytext="รสสุคณธ์ ผนึกโชคลาภ
+กสิกรไทย
+0102206144";
+			}
 			
 			// Build message to reply back
 			$messages = [
