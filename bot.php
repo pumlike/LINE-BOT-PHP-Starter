@@ -171,7 +171,12 @@ if (!is_null($events['events']))
 กสิกรไทย
 0102206144";
 			}
-			
+			if($text=="บชไทยพานิช")
+			{
+				$replytext="รสสุคณธ์ ผนึกโชคลาภ
+ไทยพานิช
+1512359894";
+			}
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
