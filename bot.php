@@ -57,6 +57,10 @@ if (!is_null($events['events']))
 			{
 				$replytext="เชิญจร้า";
 			}
+			if($text=="ดีจร้า")
+			{
+				$replytext="กองไว้ตรงนั้นแหละ 555";
+			}
 			if($text=="รออยู่")
 			{
 				$replytext="ชาติหน้านะ";
