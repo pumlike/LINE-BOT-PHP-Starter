@@ -207,7 +207,7 @@ if (!is_null($events['events']))
 			}
 			if($text=="5555")
 			{
-				$replytext="หัวเระหาพ่องมึงหรา";
+				$replytext="หัวเราะหาพ่องมึงหรา";
 			}
 			if($text=="55555")
 			{
