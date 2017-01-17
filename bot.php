@@ -181,6 +181,19 @@ if (!is_null($events['events']))
 ไทยพานิช
 1512359894";
 			}
+			if($text=="เช็คอิน")
+			{
+				$replytext="SetLastPoint";
+			}
+			if($text=="ใครอ่าน")
+			{
+				$replytext="Viewlastseen";
+			}
+			if($text=="สถานะ")
+			{
+				$replytext="set:status";
+			}
+			
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
