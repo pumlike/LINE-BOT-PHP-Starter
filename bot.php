@@ -193,7 +193,62 @@ if (!is_null($events['events']))
 			{
 				$replytext="set:status";
 			}
-			
+			if($text=="สัส")
+			{
+				$replytext="มึงดิสัส";
+			}
+			if($text=="ส้นติีน")
+			{
+				$replytext="แม่มึงหรอ";
+			}
+			if($text=="บอท")
+			{
+				$replytext="กูจะนอน";
+			}
+			if($text=="5555")
+			{
+				$replytext="หัวเระหาพ่องมึงหรา";
+			}
+			if($text=="55555")
+			{
+				$replytext="ไม่เคยหัวเราะหรอ";
+			}
+			if($text=="เบื่อ")
+			{
+				$replytext="เออดี";
+			}
+			if($text=="นอนล่ะ")
+			{
+				$replytext="ไปตายที่ไหนก็เชิญ";
+			}
+			if($text=="หมวย")
+			{
+				$replytext="เรียกแม่หนูทามไม";
+			}
+			if($text=="อ้าว")
+			{
+				$replytext="อ้าวเห้อไม่เหมือนที่คุยกันไว้นี้หว่า";
+			}
+			if($text=="บาย")
+			{
+				$replytext="ไปตายที่ไหนก็ไป";
+			}
+			if($text=="มา")
+			{
+				$replytext="หื ไม่อ่า";
+			}
+			if($text=="พักผ่อน")
+			{
+				$replytext="เชิญ";
+			}
+			if($text=="เหนื่อย")
+			{
+				$replytext="กูก็เหนื่อย เพราะมึงแหละ";
+			}
+			if($text=="ดี")
+			{
+				$replytext="ดีไรเมิงว่ะ";
+			}
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
