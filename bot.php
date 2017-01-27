@@ -249,6 +249,66 @@ if (!is_null($events['events']))
 			{
 				$replytext="ดีไรเมิงว่ะ";
 			}
+			if($text=="ผัว")
+			{
+				$replytext="ผัวพ่องมึงดิ";
+			}
+			if($text=="เมีย")
+			{
+				$replytext="เมียแม่มึงหรอ";
+			}
+			if($text=="เออ")
+			{
+				$replytext="พูดจาให้เพราะๆหน่อยได้มะ สัส";
+			}
+			if($text=="ส้นตีน")
+			{
+				$replytext="แล้วไง";
+			}
+			if($text=="หนานอาร์ม")
+			{
+				$replytext="เรียกกระเทยทามไม";
+			}
+			if($text=="อ้อม")
+			{
+				$replytext="เรียกพท้าวอ้อมไมค่ะ";
+			}
+			if($text=="แล้วไง")
+			{
+				$replytext="ล่ะไงอ่า";
+			}
+			if($text=="หนิง")
+			{
+				$replytext="เลขา กำลังเลียขาอยู่ค่ะ คิคิ เรียกไม";
+			}
+			if($text=="กำ")
+			{
+				$replytext="กำไร ปล่อยว่างมั้งนะ บอทว่า";
+			}
+			if($text=="จัด")
+			{
+				$replytext="จัดหัว พ่อมึงดิ";
+			}
+			if($text=="ลำคาญ")
+			{
+				$replytext="แล้วไง";
+			}
+			if($text=="ปาบ")
+			{
+				$replytext="แม่พระ...";
+			}
+			if($text=="เหี้ยว่ะ")
+			{
+				$replytext="มึงอะเหี้ย";
+			}
+			if($text=="อ้าย")
+			{
+				$replytext="เรียกใครจร๊";
+			}
+			if($text=="เอ็ม")
+			{
+				$replytext="เรียกเสี่ยเอ็มไมจร๊....";
+			}
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
