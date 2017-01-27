@@ -309,6 +309,23 @@ if (!is_null($events['events']))
 			{
 				$replytext="เรียกเสี่ยเอ็มไมจร๊....";
 			}
+			if($text=="กวนคีน")
+			{
+				$replytext="แล้วไงจร๊.....";
+			}
+			if($text=="เยอะ")
+			{
+				$replytext="เมิงดิเยอะ สัส";
+			}
+			if($text=="ควยใหญ่มาก")
+			{
+				$replytext="รู้ได้ไง ว่าบอทควยใหญ่";
+			}
+			if($text=="หำ")
+			{
+				$replytext="หำพ่องมึงดิ สัส";
+			}
+			
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
