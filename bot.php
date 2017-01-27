@@ -325,7 +325,14 @@ if (!is_null($events['events']))
 			{
 				$replytext="หำพ่องมึงดิ สัส";
 			}
-			
+			if($text=="หัวดอ")
+			{
+				$replytext="หัวดอ นี้หัวไรอ่ะ";
+			}
+			if($text=="หมา")
+			{
+				$replytext="ใครหมา  สาดดด  พูดดีดี.";
+			}
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
