@@ -333,7 +333,11 @@ if (!is_null($events['events']))
 			{
 				$replytext="ใครหมา  สาดดด  พูดดีดี.";
 			}
-			// Build message to reply back
+			
+			if($text=="แอดมิน")
+			{
+				$replytext="Siriv9:グル作成者";
+			}			// Build message to reply back
 			$messages = [
 				'type' => 'text',
 				'text' => $replytext
